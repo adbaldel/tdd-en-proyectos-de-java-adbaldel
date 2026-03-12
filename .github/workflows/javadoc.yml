@@ -29,7 +29,7 @@ jobs:
 
       # 5. Ejecutar el comando Javadoc que probaste en el paso 1
       - name: Generar Javadoc
-        run: javadoc -d javadoc -sourcepath src/main/java -subpackages .
+        run: javadoc -d javadoc -sourcepath src/main/java -subpackages com
 
       # 6. Preparar y subir los archivos generados a GitHub Pages
       - name: Configurar GitHub Pages
